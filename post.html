@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">
+    <a href="names.html">
+        <img src="images/Logo.png" alt="Logo" class="logo-img">
+    </a>
+</div>
+
+
+<!-- Input Form for Customization -->
+<div class="controls">
+    <label for="name">Enter Your Name: </label>
+    <input type="text" id="name">
+    
+    <label for="bgColor">Select Background Color: </label>
+    <input type="color" id="bgColor">
+
+    <label for="fontSelect">Select Font: </label>
+    <select id="fontSelect">
+        <option value="Arial">Arial</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Verdana">Verdana</option>
+    </select>
+
+    <button onclick="applyChanges()">Apply Changes</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
